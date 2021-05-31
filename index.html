@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable= no, width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="estiloo.css">
+    <link rel="icon" href="pngegg.ico">
+    <title>Ruben Bornet</title>
+</head>
+<body>
+    <div id="contenedor">
+        <a name="INICIO"></a>
+        <header><h1><u>¡BIENVENIDOS!</u></h1></header>
+        <nav class= "navegacion" id="nav">
+            <ul class="menu">
+            <li><a href="#INICIO">INICIO</a></li>
+            <li><a href="#soy-Ruben">¿QUIÉN SOY?</a></li>
+            <li><a href="#xxx"> CONTACTAME </a></li>
+            </ul></nav><br><br>
+        <section id="Contenido">
+            <h1>RUBÉN ENRIQUE BORNET</h1>
+            <img src="Foto.jpeg">
+        </section>
+        <aside>
+            <h1><b><u>Un poco sobre mi:</u></b></h1> <br> <br>
+            <p>Mi nombre es Rubén, soy oriundo de la Provincia de Misiones , pero vivo actualmente en Buenos Aires, me estoy introduciendo en el mundo de la Programación, con conocimientos<br>
+                 en HTML, CSS y PHP. Realizo trabajos de maquetado web, frontend y back end.<br>
+            Gracias por visitar mi sitio web.</p> 
+            <button><a name="soy-Ruben">¿QUIÉN SOY?</a></button></aside>
+        <div class="contactame">
+            <a name="xxx"></a>
+            <hr>
+            <p>Podés enviar tu consulta via correo Electrónico, por llamada telefónica o simplemente por Whatsapp.</p>
+            <h2><b>CONTACTAME</b></h2> 
+            <form action="enviar.php" method="POST" class="form_contact">
+              <input type="text" name="nombre" placeholder="NOMBRE Y APELLIDO" required/><br>
+              <input type="number" name="telefono" placeholder="NÚMERO DE TELÉFONO" required/><br>
+              <input type="email" name="email" placeholder="CORREO ELECTRÓNICA" required/><br>
+              <input type="text" name="mensaje" placeholder="MENSAJE" required/><br>
+              <button class="submit entry" onclick="Gracias()">Enviar</button>
+            </form>
+        </div><br><br><br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/uAY0Da2vlDE" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <footer>
+            <hr>
+            <div class="contact">
+            <h3><b><u> INFORMACIÓN DE CONTACTO </u></b></h3><br>
+            <p><b><u>Correo Electrónico:</u></b> enriquebornett01@gmail.com </p>
+            <p><b><u>Teléfono:</u></b> 3764-534608</p>  
+            <p><a href="https://www.instagram.com/rubenbornet/" target="_blank"><img src="Ig.png" width="40px"></a></p>
+            <button style="background-color:rgb(23, 23, 116);"><a href="#INICIO" style="color: white;">INICIO</a></button>
+        </footer>
+    </div>
+</body>
+</html>
